@@ -1,6 +1,6 @@
 # input template
-from typing import List
 from copy import deepcopy
+import re
 
 
 def double_split(content: str):
@@ -10,7 +10,6 @@ def double_split(content: str):
 with open("day5/input.txt") as f:
     file_content = f.read()
 #### Code ####
-import re
 
 raw_tower, raw_instructions = double_split(file_content)
 
