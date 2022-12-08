@@ -10,4 +10,4 @@ puzzle_data = data
 if solution_one != EMPTY:
     submit(solution_one, part="a")
 if solution_two != EMPTY:
-    submit(solution_two, part="a")
+    submit(solution_two, part="b")
